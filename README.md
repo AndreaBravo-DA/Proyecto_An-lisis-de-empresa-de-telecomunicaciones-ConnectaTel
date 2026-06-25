@@ -46,7 +46,7 @@ Crear segmentos accionables que permiten diseñar ofertas, campañas y migracion
 #### Hallazgos iniciales:
 
 - El grupo de jovenes es una oportunidad para la compañia, puesto que son los usuarios quienes utilizan menos el plan básico y premium.
-- 
+  
 - La mayoria de los usuarios son adultos, posteriormente quienes lo usan son los adultos mayores. 
   
 - En los tres grupos de usuarios por edad prefieren utilizar el plan basico.
@@ -89,14 +89,14 @@ Algunos podrian ser: el uso de redes sociales ilimitado, algun convenio con una 
 
    * Campos
 
-user_id — identificador único del usuario
-first_name — nombre
-last_name — apellido
-age — edad
-city — ciudad
-reg_date — fecha de registro
-plan — tipo de plan contratado
-churn_date — fecha de baja (nulo si sigue activo)
+    * user_id — identificador único del usuario
+    * first_name — nombre
+    * last_name — apellido
+    * age — edad
+    * city — ciudad
+    * reg_date — fecha de registro
+    * plan — tipo de plan contratado
+    * churn_date — fecha de baja (nulo si sigue activo)
 
 
 
@@ -109,14 +109,14 @@ churn_date — fecha de baja (nulo si sigue activo)
 
  * Campos
 
-plan_name — nombre del plan (Basico / Premium)
-messages_included — mensajes incluidos en el plan
-gb_per_month — GB incluidos por mes
-minutes_included — minutos incluidos en el plan
-usd_monthly_pay — costo mensual en USD
-usd_per_gb — costo por GB extra
-usd_per_message — costo por mensaje extra
-usd_per_minute — costo por minuto extra
+   * plan_name — nombre del plan (Basico / Premium)
+   * messages_included — mensajes incluidos en el plan
+   * gb_per_month — GB incluidos por mes
+   * minutes_included — minutos incluidos en el plan
+   * usd_monthly_pay — costo mensual en USD
+   * usd_per_gb — costo por GB extra
+   * usd_per_message — costo por mensaje extra
+   * usd_per_minute — costo por minuto extra
 
 
 #### *Actividad del usuario:* 
@@ -127,11 +127,11 @@ usd_per_minute — costo por minuto extra
 
  * Campos
 
-id — identificador del registro
-user_id — identificador del usuario
-type — tipo de uso (call o text)
-date — fecha del uso
-duration — duración en minutos (solo llamadas)
-length — longitud en caracteres (solo mensajes)
+   * id — identificador del registro
+   * user_id — identificador del usuario
+   * type — tipo de uso (call o text)
+   * date — fecha del uso
+   * duration — duración en minutos (solo llamadas)
+   * length — longitud en caracteres (solo mensajes)
 
 
