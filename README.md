@@ -89,14 +89,14 @@ Algunos podrian ser: el uso de redes sociales ilimitado, algun convenio con una 
 
    * Campos
 
-    * user_id — identificador único del usuario
-    * first_name — nombre
-    * last_name — apellido
-    * age — edad
-    * city — ciudad
-    * reg_date — fecha de registro
-    * plan — tipo de plan contratado
-    * churn_date — fecha de baja (nulo si sigue activo)
+     * user_id — identificador único del usuario
+     * first_name — nombre
+     * last_name — apellido
+     * age — edad
+     * city — ciudad
+     * reg_date — fecha de registro
+     * plan — tipo de plan contratado
+     * churn_date — fecha de baja (nulo si sigue activo)
 
 
 
